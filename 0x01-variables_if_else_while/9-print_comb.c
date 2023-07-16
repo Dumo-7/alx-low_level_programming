@@ -11,7 +11,7 @@ int main(void)
 {
 	int n;
 
-	for (n = 0; n < 8; n++)
+	for (n = 0; n <= 8; n++)
 	{
 		putchar(48 + n);
 		putchar(',');
