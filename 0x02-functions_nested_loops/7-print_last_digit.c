@@ -4,7 +4,7 @@
  * print_last_digit - prints the last digit of a number
  * @r: number to be checkd
  *
- * Return: value of the last digit
+ * Return: value of the last digit or 0
  */
 
 int print_last_digit(int r)
@@ -22,4 +22,5 @@ int print_last_digit(int r)
 		_putchar('0');
 		return (0);
 	}
+	return (n);
 }
