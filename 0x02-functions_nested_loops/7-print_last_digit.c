@@ -23,4 +23,3 @@ int print_last_digit(int r)
 		return (0);
 	}
 }
-
