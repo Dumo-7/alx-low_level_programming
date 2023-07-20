@@ -10,12 +10,6 @@
 
 int mul(int a, int b)
 {
-	if (a % 10 == 0)
-	{
-		if (b % 10 == 0)
-		{
-		(a * b);
-		}
-	}
+	(a * b);
 	return (0);
 }
