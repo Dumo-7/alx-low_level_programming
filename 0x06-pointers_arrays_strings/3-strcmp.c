@@ -5,7 +5,7 @@
  * @s1: pointer to a character to be compared
  * @s2: A pointer to a character that will be compared
  *
- * Return: difference between 2 pointers
+ * Return: 0
  */
 int _strcmp(char *s1, char *s2)
 {
@@ -17,10 +17,10 @@ int _strcmp(char *s1, char *s2)
 		{
 			return (*str_a - *str_b);
 		}
-		if (*str_a == *str_b)
+		else if (*str_a == *str_b)
 		{
 			str_a++;
 			str_b++;
 		}
-
+	return(0);
 }
