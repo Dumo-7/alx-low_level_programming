@@ -21,7 +21,7 @@ int main(void)
 	if (al !=  e && al != q)
 	{
 		putchar(al);
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
