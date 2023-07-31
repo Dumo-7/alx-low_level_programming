@@ -14,11 +14,14 @@ int main(void)
 	char e;
 	char q;
 
+	e = 'e';
+	q = 'q';
+
 	for (al = 'a'; al <= 'z'; al++)
 	if (al !=  e && al != q)
 	{
 		putchar(al);
 		putchar('\n');
-		return (0);
 	}
+	return (0);
 }
