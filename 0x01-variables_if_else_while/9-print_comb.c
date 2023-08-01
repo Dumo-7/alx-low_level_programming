@@ -2,21 +2,25 @@
 #include <stdio.h>
 
 /**
- *	main - prints all single digit numbers of base 10 starting from 0.
+ *      main - prints all single digit numbers of base 10 starting from 0.
  *
- *	Return: 0 (Success)
+ *      Return: 0 (Success)
  */
 
 int main(void)
 {
-	int n;
+	int num;
 
-	for (n = 0; n <= 8; n++)
+	for (num = 0; num <= 9; num++)
 	{
-		putchar(48 + n);
+		putchar((num % 10) + '0');
+		if (num == 9)
+			continue;
+
 		putchar(',');
 		putchar(' ');
 	}
-	putchar('9');
+
+	putchar('\n');
 	return (0);
 }
